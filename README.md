@@ -1,4 +1,4 @@
-[eventfeed.me](https://eventfeed.me)
+[eventfeed.me](http://eventfeed.me:8080)
 ============
 
 ## Short info to start
@@ -7,8 +7,7 @@
 
 1. `git clone https://github.com/admix/eventfeed.me`
 2. `npm install`
-3. `cp env.dist .env`
-4. `grunt dev` (Builds front end js. If you aren't working on front end assets you can just do `node app`)
+3. `node web_static.js` - starts app on :8080 port
 
 ####Submitting PRs
 
@@ -29,7 +28,7 @@ The setup portion of this README assumes you have the following installed:
 
 1. Clone eventfeed.me and enter the directory: `git clone https://github.com/admix/eventfeed.me && cd eventfeed.me`
 2. Install eventfeed.me's Node and Bower dependencies: `npm install`
-3. Run: node app.js
+3. Run: node web_static.js
 
 ####Grunt Tasks
 
