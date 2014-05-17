@@ -1,7 +1,14 @@
-var express = require('express'),
-    app = express();
+var express = require("express"),
+    habitat = require("habitat");
 
-app.use(express.static(__dirname + '/public'));
+habitat.load();
 
-app.listen(8080);
+var app = express(),
+    env = new habitat(),
+    port = Number(env.get("PORT") || 8080)
 
+app.use(express.static(__dirname + "/public"));
+
+app.listen(port, function() {
+  console.log("Listening on port: " + port);
+});

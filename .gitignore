@@ -1,6 +1,7 @@
 # Project Files/Folders #
 #########################
 node_modules/
+.env
 
 # Compiled source #
 ###################
