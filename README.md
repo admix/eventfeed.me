@@ -7,6 +7,7 @@
 
 1. `git clone https://github.com/admix/eventfeed.me`
 2. `npm install`
+3. `cp env.dev .env` - setup env veriables for your dev
 3. `node web_static.js` - starts app on :80 or :8080 for localhost port
 
 ####Submitting PRs
