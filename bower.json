@@ -1,0 +1,10 @@
+{
+  "name": "eventfeed.me",
+  "dependencies": {
+    "font-awesome": "3.2.1",
+    "jquery": "2.0.3",
+    "jquery-ui": "1.10.3",
+    "requirejs": "2.1.8"
+  },
+  "version": "1.3.3"
+}
