@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/admix/eventfeed.org.git"
+    "url": "git://github.com/admix/eventfeed.me.git"
   },
   "license": "Apache-2.0",
   "dependencies": {
