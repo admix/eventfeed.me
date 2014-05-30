@@ -1,4 +1,4 @@
-[eventfeed.me](http://eventfeed.me:8080)
+[eventfeed.me](http://eventfeed.me)
 ============
 
 ## Short info to start
@@ -29,7 +29,7 @@ The setup portion of this README assumes you have the following installed:
 
 1. Clone eventfeed.me and enter the directory: `git clone https://github.com/admix/eventfeed.me && cd eventfeed.me`
 2. Install eventfeed.me's Node and Bower dependencies: `npm install`
-3. Run: node web_static.js
+3. Run: node app.js
 
 ####Grunt Tasks
 
