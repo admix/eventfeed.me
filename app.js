@@ -5,7 +5,7 @@ habitat.load();
 
 var app = express(),
     env = new habitat(),
-    port = Number(env.get("PORT") || 8080)
+    port = Number(env.get("PORT") || 8080);
 
 app.use(express.static(__dirname + "/public"));
 
