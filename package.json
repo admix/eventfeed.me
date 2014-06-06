@@ -10,11 +10,12 @@
     "type": "git",
     "url": "git://github.com/admix/eventfeed.me.git"
   },
-  "license": "Apache-2.0",
   "dependencies": {
     "express": "3.4.5",
     "habitat": "0.4.1",
     "mime": "~1.2.7",
     "socket.io": "~0.9.15"
-  }
+  },
+  "author": "Alexander Snurnikov",
+  "license": "Apache-2.0"
 }
